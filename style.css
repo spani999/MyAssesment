@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding:0;
+}
+
+header {
+    background-color: rgb(192, 227, 237);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.opening h1 {
+  background-image: linear-gradient(to left,cornflowerblue, cornsilk);
+  background-color: transparent;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: x-large;
+  text-align:center;
+}
+
+.nav li {
+  background-color: floralwhite;
+  color: cornflowerblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  width: 80px;
+  text-align: center;
+  font-size: small;
+  white-space: 50px;
+  border: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  }
+    
+   main {
+   text-align: center;
+ }
+
+.backcover {
+  height:700px;
+  background-image: url(./SFD5\ BACKGROUND\ IMAGE.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+  .outeredge {
+    display: block;
+    font: 14px message-box;
+    padding: 3px;
+    margin:0 0 5px 0;
+  }
+
+.boxs h2 {
+  background-color: beige;
+  color: green;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  width: 80px;
+  text-align: center;
+  font-size: medium;
+  border: 20px;
+  border-radius: 20px;
+  display: inline;
+}
+
+.outeredge .boxs {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align:justify; 
+  outline: 1px solid cornsilk;
+  overflow: auto;
+  margin: 0 0 2em 0;
+}
+
+.link li {
+  color: rgb(192, 227, 237)
+    font-family:floralwhite;
+    font-weight: 600;
+    font-size: 15px;
+    display:vertical
+  }
+
+  .servicendsupport h4 {
+  background-color: beige;
+  color: green;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  width: 80px;
+  text-align: center;
+  font-size: medium;
+  white-space: 50px;
+  border: 20px;
+  border-radius: 20px;
+  display: inline;
+  }
+
+  .servicendsupport p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align:justify
+  }
+ 
+  
+.footerdiv .face {
+  max-width: 940px;
+  background-image: url(./FACEBOOK.png);
+  margin: 0 auto;
+  height: auto;
+  background-size: cover;
+  display:inline-block;
+  width: 50px;
+  padding: 0 10px;
+  text-align:unset
+}
+.footerdiv ul {
+  max-width: 940px;
+  margin: 0 auto;
+  height: auto;
+  display:inline;
+  width: 50px;
+  padding: 0 10px;
+  text-align:center
+}
+
+.footerdiv .tube {
+  max-width: 940px;
+  background-image: url(./Youtube\ image.png);
+  margin: 0 auto;
+  height: auto;
+  display:inline-block;
+  width: 50px;
+  padding: 0 10px;
+  text-align:center
+}
+
+footer {
+  background-color:whitesmoke;  
+}
+
+.footerdiv .twit {
+  max-width: 940px;
+  background-image: url(./TWITTER\ \(1\).png);
+  margin: 0 auto;
+  width: 50px;
+  display: inline-block;
+  padding: 0 10px;
+  text-align:center
+}
